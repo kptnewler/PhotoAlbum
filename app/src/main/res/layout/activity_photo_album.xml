@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liule.photoalbum.ui.activity.PhotoAlbumActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_photo_album"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/toolbar_background"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@color/tab_indicator_color"
+        app:tabSelectedTextColor="@color/tab_indicator_color"
+        app:tabTextColor="@color/black"
+        app:tabPaddingStart="@dimen/dp_15"
+        app:tabPaddingEnd="@dimen/dp_15"/>
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/vp_photo_album"/>
+
+</LinearLayout>

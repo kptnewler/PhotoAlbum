@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#e9ebec</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="toolbar_background">#e9ebec</color>
+    <color name="tab_indicator_color">#2acdc8</color>
+    <color name="withe">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray_80">#565555</color>
+    <color name="image_toolbar">#00000000</color>
+    <color name="item_background">#FFD1D1D1</color>
+</resources>
